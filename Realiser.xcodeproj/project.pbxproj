@@ -14,6 +14,12 @@
 		BEF336752963F325002EF14C /* RealiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF336742963F325002EF14C /* RealiserTests.swift */; };
 		BEF3367F2963F325002EF14C /* RealiserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3367E2963F325002EF14C /* RealiserUITests.swift */; };
 		BEF336812963F325002EF14C /* RealiserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF336802963F325002EF14C /* RealiserUITestsLaunchTests.swift */; };
+		BEF3368E2965E6D0002EF14C /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3368D2965E6D0002EF14C /* VideoView.swift */; };
+		BEF336902965F84A002EF14C /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3368F2965F84A002EF14C /* ListRowView.swift */; };
+		BEF33692296659E9002EF14C /* VideoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF33691296659E9002EF14C /* VideoPage.swift */; };
+		BEF3369429665C0E002EF14C /* AlbumItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3369329665C0E002EF14C /* AlbumItem.swift */; };
+		BEF3369629665F36002EF14C /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3369529665F36002EF14C /* AddView.swift */; };
+		BEF3369829666575002EF14C /* AlbumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3369729666575002EF14C /* AlbumManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		BEF3367A2963F325002EF14C /* RealiserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealiserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF3367E2963F325002EF14C /* RealiserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealiserUITests.swift; sourceTree = "<group>"; };
 		BEF336802963F325002EF14C /* RealiserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealiserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEF3368D2965E6D0002EF14C /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		BEF3368F2965F84A002EF14C /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		BEF33691296659E9002EF14C /* VideoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPage.swift; sourceTree = "<group>"; };
+		BEF3369329665C0E002EF14C /* AlbumItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumItem.swift; sourceTree = "<group>"; };
+		BEF3369529665F36002EF14C /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		BEF3369729666575002EF14C /* AlbumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,12 @@
 				BEF336662963F325002EF14C /* Assets.xcassets */,
 				BEF3366B2963F325002EF14C /* Realiser.entitlements */,
 				BEF336682963F325002EF14C /* Preview Content */,
+				BEF3368D2965E6D0002EF14C /* VideoView.swift */,
+				BEF3368F2965F84A002EF14C /* ListRowView.swift */,
+				BEF33691296659E9002EF14C /* VideoPage.swift */,
+				BEF3369329665C0E002EF14C /* AlbumItem.swift */,
+				BEF3369529665F36002EF14C /* AddView.swift */,
+				BEF3369729666575002EF14C /* AlbumManager.swift */,
 			);
 			path = Realiser;
 			sourceTree = "<group>";
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF3369629665F36002EF14C /* AddView.swift in Sources */,
+				BEF3369829666575002EF14C /* AlbumManager.swift in Sources */,
+				BEF3368E2965E6D0002EF14C /* VideoView.swift in Sources */,
 				BEF336652963F323002EF14C /* ContentView.swift in Sources */,
+				BEF3369429665C0E002EF14C /* AlbumItem.swift in Sources */,
+				BEF33692296659E9002EF14C /* VideoPage.swift in Sources */,
 				BEF336632963F323002EF14C /* RealiserApp.swift in Sources */,
+				BEF336902965F84A002EF14C /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
