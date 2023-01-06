@@ -13,7 +13,7 @@ struct ListRowView: View {
     
     var body: some View {
         HStack{
-            Image(systemName: "rays")
+            AsyncImage(url: URL(string: "https://img.youtube.com/vi/\(id)/default.jpg"))
             Text(title)
             Spacer()
             NavigationLink("", destination: VideoPage(videoID: id, title:title))
